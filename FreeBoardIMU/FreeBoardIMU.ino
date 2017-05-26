@@ -46,8 +46,8 @@ float val[9];
 float declination=0.0;
 bool raw_out=false;
 bool nmea_out=false;
-bool freeboard_out=false;
-bool SK_out=true;
+bool freeboard_out=true;
+bool SK_out=false;
 String inputSerial = ""; // a string to hold incoming data
 
 typedef volatile double rval; //change float to the datatype you want to use
